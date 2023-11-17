@@ -14,11 +14,10 @@
 }
 
 .main-header-container {
-
     display: flex;
-    margin: 0 auto;
     padding: 50px 200px;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .header-logo {
@@ -39,14 +38,27 @@
     flex-basis: 25%;
     min-height: 50px;
     background-color: brown;
-    border: dashed;
+    border: dotted;
 }
 
-/* Main */
+/* MAIN */
 
+/* Spotlight section */
 .wallpaper {
     background-color: coral;
-    min-height: 200px;
-    width: auto;
+    min-height: 400px;
+}
 
+.wallpaper-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotlight {
+    width: 50%;
+    height: 50%;
+    background-color: darkgreen;
+    border: dotted;
 }
