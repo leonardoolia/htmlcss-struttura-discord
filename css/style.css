@@ -13,11 +13,14 @@
 
 }
 
+
+
 .main-header-container {
     display: flex;
     padding: 50px 200px;
     align-items: center;
     justify-content: center;
+
 }
 
 .header-logo {
@@ -150,14 +153,16 @@
 }
 
 .fandom-image {
-    width: 60%;
+    flex-basis: 60%;
+    /* width: 60%; */
     height: 80%;
     background-color: darkgreen;
     border: dotted;
 }
 
 .fandom-description {
-    width: 40%;
+    flex-basis: 40%;
+    /* width: 40%; */
     height: 80%;
     background-color: blueviolet;
     border: dotted;
@@ -181,4 +186,79 @@
     height: 80%;
     background-color: darkgreen;
     border: dotted;
+}
+
+/* FOOTER */
+
+/* Main footer */
+.main-footer-links {
+    background-color: darkmagenta;
+}
+
+.main-footer-grid {
+    /* min-height: 600px; */
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.links-container {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-footer-logos {
+    flex-basis: 30%;
+    height: 80%;
+    background-color: darkgreen;
+    border: dotted;
+}
+
+.main-footer-utilities {
+    flex-basis: 70%;
+    height: 80%;
+    background-color: blueviolet;
+    border: dotted;
+    display: flex;
+}
+
+.main-footer-utilities>div {
+    border: dotted;
+    flex-basis: 25%;
+}
+
+/* Secondary footer */
+.secondary-footer {
+    background-color: darkmagenta;
+    margin-top: 2px;
+}
+
+.secondary-footer-grid {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.secondary-footer-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+.secondary-footer-logo {
+    flex-basis: 5%;
+    border: dotted;
+    height: 50%;
+    background-color: darkblue;
+
+}
+
+.secondary-footer-button {
+    flex-basis: 5%;
+    border: dotted;
+    height: 50%;
+    background-color: darkblue;
 }
