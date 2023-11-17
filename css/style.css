@@ -1,5 +1,52 @@
+/* CSS reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Header */
+
+.main-header {
+    background-color: lightblue;
+    min-height: 50px;
+
+}
+
+.main-header-container {
+
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 200px;
+
+}
+
+.header-logo {
+    flex-basis: 25%;
+    min-height: 50px;
+    background-color: brown;
+    border: dashed;
+}
+
+.header-link {
+    flex-basis: 50%;
+    min-height: 50px;
+    background-color: brown;
+    border: dashed;
+}
+
+.header-login {
+    flex-basis: 25%;
+    min-height: 50px;
+    background-color: brown;
+    border: dashed;
+}
+
+/* Main */
+
+.wallpaper {
+    background-color: coral;
+    min-height: 200px;
+    width: auto;
+
 }
