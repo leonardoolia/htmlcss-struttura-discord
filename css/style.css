@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Header */
+/* HEADER */
 
 .main-header {
     background-color: lightblue;
@@ -64,8 +64,11 @@
 }
 
 /* Organization section */
+.channels {
+    background-color: darkcyan;
+}
+
 .organization {
-    background-color: white;
     min-height: 600px;
     max-width: 2000px;
     margin: 0 auto;
@@ -90,5 +93,92 @@
     width: 40%;
     height: 80%;
     background-color: blueviolet;
+    border: dotted;
+}
+
+/* Friends section */
+.vocal {
+    background-color: gray;
+}
+
+.friends {
+
+    min-height: 600px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.friends-container {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.friends-description {
+    width: 40%;
+    height: 80%;
+    background-color: blueviolet;
+    border: dotted;
+}
+
+.friends-image {
+    width: 60%;
+    height: 80%;
+    background-color: darkgreen;
+    border: dotted;
+}
+
+/* Fandom section */
+.community {
+    background-color: darkcyan;
+}
+
+.fandom {
+    min-height: 600px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.fandom-container {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fandom-image {
+    width: 60%;
+    height: 80%;
+    background-color: darkgreen;
+    border: dotted;
+}
+
+.fandom-description {
+    width: 40%;
+    height: 80%;
+    background-color: blueviolet;
+    border: dotted;
+}
+
+/* Download section */
+.download {
+    background-color: coral;
+    min-height: 800px;
+}
+
+.app-download-container {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-download {
+    width: 50%;
+    height: 80%;
+    background-color: darkgreen;
     border: dotted;
 }
