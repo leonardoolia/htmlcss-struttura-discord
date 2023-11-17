@@ -62,3 +62,33 @@
     background-color: darkgreen;
     border: dotted;
 }
+
+/* Organization section */
+.organization {
+    background-color: white;
+    min-height: 600px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.organization-container {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.organization-image {
+    width: 60%;
+    height: 80%;
+    background-color: darkgreen;
+    border: dotted;
+}
+
+.organization-description {
+    width: 40%;
+    height: 80%;
+    background-color: blueviolet;
+    border: dotted;
+}
