@@ -10,17 +10,19 @@
 .main-header {
     background-color: lightblue;
     min-height: 50px;
+}
 
+.main-header-grid {
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 
-
 .main-header-container {
+    height: 100px;
     display: flex;
-    padding: 50px 200px;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-between;
 }
 
 .header-logo {
